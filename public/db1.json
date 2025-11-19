@@ -1,0 +1,77 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "admin_id": "ganga_admin",
+      "password": "ganga@123"
+    },
+    {
+      "id": "2",
+      "admin_id": "geetha_admin",
+      "password": "geetha@114"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "user_id": "kittu123",
+      "user_name": "bala",
+      "password": "bala@123",
+      "email": "bala@outlook.com"
+    },
+    {
+      "id": "e909",
+      "user_id": "anji114",
+      "user_name": "anji",
+      "password": "anji@114",
+      "email": "anji@outlook.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "category_id": 1,
+      "category_name": "java"
+    },
+    {
+      "id": "2",
+      "category_id": 2,
+      "category_name": ".NET"
+    },
+    {
+      "id": "3",
+      "category_id": 3,
+      "category_name": "React"
+    }
+  ],
+  "videos": [
+    {
+      "video_id": 1,
+      "title": "React FAQ's",
+      "url": "https://www.youtube.com/embed/NJVQA10RPuA",
+      "description": "React JS Interview Tips",
+      "category_id": 3,
+      "likes": 3000,
+      "views": 600,
+      "dislikes": 0,
+      "comments": [
+        "Thank you"
+      ],
+      "id": "1"
+    },
+    {
+      "video_id": 2,
+      "title": "Spring MVC",
+      "url": "https://www.youtube.com/embed/g2b-NbR48Jo",
+      "description": "Spring MVC Tutorial",
+      "category_id": 1,
+      "likes": 13000,
+      "views": 1093184,
+      "dislikes": 0,
+      "comments": [
+        "Good Teaching"
+      ],
+      "id": "2"
+    }
+  ]
+}
